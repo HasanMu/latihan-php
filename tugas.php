@@ -1,5 +1,5 @@
 <?php
-    $uang = 50000;
+    $uang = 5000;
     $makan = 25000;
     $minum = 10000;
     $sisa = ($uang - $makan) - $minum;
@@ -13,7 +13,7 @@
         echo 'Sisa uang Hari Adalah Rp.'.$sisa.'<br>';
         echo 'Hari <b>Bukan Pemboros!</b> <br>';
     elseif($sisa<1):
-        echo 'Membeli Makanan dengan harga Rp.'.$makan.' dan minuman Rp.'.$minum.'<br>';
+        echo 'Membeli Makanan dengan harga <br>Rp.'.$makan.' dan minuman Rp.'.$minum.'<br>';
         echo 'Hari menghabiskan uang sebesar Rp. '.$pembelian.'<br>';
         echo 'Sisa uang Hari Adalah Rp.'.$sisa.'<br>';
         echo 'Hari <b>Pemboros!</b> <br>';
